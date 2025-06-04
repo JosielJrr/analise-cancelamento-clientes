@@ -1,6 +1,6 @@
 # 📉 Análise de Cancelamento de Clientes
 
-Este projeto é um estudo em Python focado em entender os principais motivos que levam clientes a cancelarem seus contratos com uma empresa fictícia de serviços. A ideia aqui é aplicar análise de dados, explorando o processo completo: desde o tratamento da base até a geração de insights com visualizações gráficas.
+Este projeto é um estudo em Python que busca entender os principais motivos pelos quais clientes cancelam seus contratos com uma empresa fictícia de serviços. A ideia é aplicar análise de dados explorando todo o processo: do tratamento da base à geração de insights com visualizações gráficas.
 
 ## 🧠 Objetivo
 
@@ -24,14 +24,14 @@ Identificar padrões e comportamentos que levam ao cancelamento de clientes e si
    Geração de histogramas para cada variável, destacando a relação com o cancelamento.
 
 5. **Análise Final (Simulação de Ações)**  
-   Simulação de ações estratégicas para reduzir o cancelamento com base em padrões identificados:
+   Simulação de estratégias para reduzir o cancelamento com base nos padrões identificados:
    - Clientes que ligam muitas vezes para o call center
    - Clientes com muitos dias de atraso
    - Clientes com contrato mensal
 
 ## 📈 Resultados
 
-Após simular a solução dos principais problemas, a taxa de cancelamento caiu consideravelmente. Os gráficos e filtros de dados deixaram evidente quais pontos precisam de atenção.
+Após simular a resolução dos principais problemas, a taxa de cancelamento caiu consideravelmente. Os gráficos e filtros deixaram claro quais pontos precisam de atenção.
 
 ## 🚀 Tecnologias Usadas
 
@@ -39,34 +39,30 @@ Após simular a solução dos principais problemas, a taxa de cancelamento caiu 
 - Jupyter Notebook
 - Pandas
 - Plotly
-- Git LFS (para arquivos grandes)
-
+ 
 ## 🛠️ Como rodar localmente
 
 1. Instale os pré-requisitos:
 
-   - Git
-   - Git LFS
-   - Python
-   - Jupyter Notebook
+   - [Git](https://git-scm.com/downloads)
+   - [Git LFS](https://git-lfs.com/)
+   - [Python](https://www.python.org/downloads/)
+   - [Jupyter Notebook](https://jupyter.org/install)
 
 2. Clone o repositório com Git LFS ativado:
 
 ```bash
 git lfs install
-```
-
-```bash
 git clone https://github.com/JosielJrr/analise-cancelamento-clientes.git
 ```
 
 ## ⚠️ Importante sobre arquivos grandes
 
-Este projeto usa Git LFS para armazenar arquivos grandes como notebooks e bases de dados.
-Se você não tiver o Git LFS instalado, esses arquivos não serão baixados corretamente.
+Este projeto usa [Git LFS](https://git-lfs.com/) para armazenar arquivos grandes como notebooks e bases de dados.
+Se o Git LFS não estiver instalado, esses arquivos não serão baixados corretamente.
 
 ## 📌 Observação
 
-Esse projeto tem fins educacionais. Os dados são fictícios e a ideia aqui é treinar habilidades de análise de dados com Python.
+Este projeto tem fins educacionais. Os dados são fictícios e a proposta é praticar análise de dados com Python.
 
 > Projeto criado na **Jornada Python** da [Hashtag Programação](https://www.youtube.com/@HashtagProgramacao).
